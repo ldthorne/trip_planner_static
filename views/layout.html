@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
+    <link href="/stylesheets/style.css" rel="stylesheet">
+
+    <script src="/jquery/dist/jquery.min.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD67Ehej6e_58yM_xuGMoc3TCxM5giAtoE&sensor=true"></script>
+</head>
+
+<body>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+Trip Planner</a></li>
+        <li role="presentation"><a href="#">About</a></li>
+        <li role="presentation"><a href="#">Contact</a></li>
+    </ul>
+    <!-- <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>glyphicon glyphicon-map-marker
+        </div>
+    </nav> -->
+    <div class="selectors">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+<footer>
+</footer>
+
+</html>

@@ -1,0 +1,83 @@
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+h3, h2 {
+  color: #FFF; }
+
+li {
+  color: #002725;
+  font-weight: bold; }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
+.nav {
+  height: 4.5vh;
+  /*	background-color: #6a4b30;
+*/ }
+
+.header-bar .btn {
+  color: #FFF;
+  background-color: #002725; }
+
+.btn {
+  color: white;
+  background-color: #002725;
+  border-color: #002725;
+  border-radius: 70px; }
+
+.col-lg-8 {
+  width: 75%;
+  height: 95.5vh;
+  background-color: gray;
+  padding: 0px;
+  float: left;
+  margin-right: 0px; }
+
+#map-canvas {
+  height: 95.5vh; }
+
+.col-lg-4 {
+  float: right;
+  margin-right: 0px;
+  text-align: left;
+  background-color: rgba(0, 255, 238, 0.2);
+  width: 25%;
+  margin-right: 0px;
+  padding-left: 0px;
+  height: 95.5vh;
+  margin-bottom: 0%; }
+  .col-lg-4 .planning {
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    float: left;
+    clear: both;
+    border-radius: 10px;
+    background-color: #768988; }
+  .col-lg-4 .itinerary {
+    float: left;
+    margin-left: 5%;
+    clear: both;
+    width: 90%;
+    margin-top: 30%;
+    padding-bottom: 5%;
+    background-color: #768988;
+    border-radius: 10px; }
+    .col-lg-4 .itinerary .header-bar {
+      background-color: #629d99;
+      padding-left: 5%;
+      padding-top: 2%;
+      padding-bottom: 2%; }
+    .col-lg-4 .itinerary .itinerary-body {
+      padding-top: 5%;
+      padding-left: 5%; }
+      .col-lg-4 .itinerary .itinerary-body li {
+        padding-left: 5%; }
+    .col-lg-4 .itinerary .day {
+      text-align: center;
+      background-color: transparent; }
